@@ -1,0 +1,164 @@
+.banner-image {
+  background-size: cover;
+  background-position: center 85%;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  p{
+    font-size: 6rem;
+    text-align: center;
+    display: block;
+    color: #fff;
+  }
+}
+
+.banner-subtext {
+  text-align: center;
+  a, p{
+    font-size: 20px;
+    width: fit-content;
+    display: block;
+    text-decoration: none;
+    float: right;
+    padding: 3px 30px;
+    margin-top: 0px !important;
+    background-color: #2d76d7;
+    color: #fff;
+  }
+}
+
+.total-banner-content {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.estimate-link {
+  position: absolute;
+  bottom: 1px;
+  padding: 10px 20px;
+  padding-right: 100px;
+  background-color: #d45502;
+  height: 50px;
+  transition: height 0.4s ease-out;
+  transition-delay: 0.05s;
+  p {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+}
+
+.estimate-link:hover {
+  height: 70px;
+}
+
+.corporate, .weddings, .parties, .conferences, .gallery, .process {
+  p {
+    font-size: 55px;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 0px;
+    padding: 0% 3.5%;
+    display: block;
+    background-color: rgba(212, 85, 2, 0.6);
+    color: #fff;
+  }
+}
+
+.parties {
+  p {
+    font-family: 'Ruthie', cursive;
+    background-color: rgba(238, 17, 81, 0.72);
+    width: initial;
+  }
+}
+
+.conferences {
+  p {
+    font-family: 'BebasNeue';
+    background-color: rgba(212, 85, 1, 0.6);
+    width: initial;
+  }
+}
+
+.news {
+  p {
+    font-family: 'BebasNeue';
+    background-color: rgba(133, 196, 227, 0.6);
+    width: initial;
+  }
+}
+
+.process {
+  p {
+    background-color: rgba(174, 216, 14, 0.48) !important;
+    font-family: 'BebasNeue';
+    font-size: 78px;
+    padding: 0% 5.5%;
+  }
+}
+
+.gallery {
+  p {
+    font-family: 'Atmosphere Script Typeface';
+    background-color: rgba(174, 216, 14, 0.48) !important;
+    font-size: 120px;
+    padding: 0% 10%;
+  }
+}
+
+.corporate {
+  p {
+    background-color: rgba(0, 134, 255, 0.48) !important;
+    width: initial;
+    font-family: 'bebasneue';
+    font-size: 76px;
+  }
+}
+
+.weddings {
+  p {
+    font-family: 'Ruthie', cursive;
+    background-color: rgba(200, 173, 40, 0.72) !important;
+    width: initial;
+  }
+}
+
+.corporate2, .weddings2, .parties2, .conferences2, .gallery2, .process2 {
+  display: none;
+}
+
+.corporatetotal, .weddingstotal, .partiestotal, .conferencestotal, .gallerytotal, .processtotal, .newstotal {
+  margin: initial;
+  margin-left: 22%;
+  width: 350px;
+}
+
+.corporateBanner, .weddingsBanner, .partiesBanner, .conferencesBanner {
+  background-position: center 20%;
+}
+
+.processBanner {
+  background-position: center 50%;
+}
+
+.corporateshow, .weddingsshow, .partiesshow, .conferencesshow, .galleryshow, .processshow {
+  display: block;
+  width: 100% !important;
+  p {
+    font-size: 22px !important;
+    text-align: left;
+    font-family: "proxima-nova";
+    padding-left: 40px;
+    font-weight: 50;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.85);
+  }
+}

@@ -1,0 +1,62 @@
+
+.collection-picker {
+  margin:19px 0;
+  button.btn-default {
+    padding-left:14px;
+  }
+}
+
+.single-collection-page {
+  h1 {
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+
+  .white-box-collection {
+    &.active {
+      h3 {
+        font-weight:bold;
+      }
+      img {
+        max-width:100%;
+        height:auto;
+      }
+    }
+    padding:24px;
+    background:#fff;
+    float:left;
+    width:100%;
+    margin-bottom:25px;
+  }
+
+  .cyan-box {
+    background:#85e0cb;
+    color: #366157;
+    .btn-primary {
+      background: #37907b;
+      color:#eaf7f4;
+    }
+    .btn-default {
+      background: #317771;
+      color:#eaf7f4;
+    }
+  }
+
+  .holiday-box-collection {
+    transition: all 300ms ease;
+  }
+
+  .btn {
+    width:100%;
+    border:0px none;
+    padding:11px 0;
+  }
+  .btn-primary {
+    background:#b0d630;
+    color:#555;
+  }
+  .btn-default {
+    background:#eee;
+    color:#555;
+  }
+}

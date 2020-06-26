@@ -1,0 +1,30 @@
+$paddingTypes: "padding","padding-bottom","padding-top","padding-right";
+
+@each $thisPaddingType in $paddingTypes {
+  @for $i from 1 through 15 {
+    .#{$thisPaddingType}-#{$i*5} {
+      #{$thisPaddingType}: $i*5 + px;
+    }
+  }
+}
+
+@each $thisPaddingType in $paddingTypes {
+  @for $i from 1 through 5 {
+    .#{$thisPaddingType}-#{$i*100} {
+      #{$thisPaddingType}: $i*100 + px;
+    }
+  }
+}
+
+.padding-general {
+  padding: 20px;
+}
+.slider.padding-general {
+  padding-bottom:0px;
+}
+
+@media screen and (max-width: 610px) {
+  .padding-general {
+    padding: 8px;
+  }
+}

@@ -1,0 +1,29 @@
+.enquiry-form {
+  .input-group label {
+    width:100%;
+  }
+  .input-group {
+    display:initial;
+  }
+  .btn-primary {
+    padding: 14px 0;
+    width:100%;
+    border:0px none;
+  }
+  div.wpcf7-response-output {
+    padding: 14px;
+    margin: 0px;
+    border:0px none;
+    background:#eee;
+    color:#666;
+  }
+  input,textarea {
+    border:2px solid #d8d8d8;
+  }
+  textarea {
+    max-width:100%;
+  }
+  select.wpcf7-select {
+    width:100%;
+  }
+}

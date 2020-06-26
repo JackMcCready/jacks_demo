@@ -1,0 +1,28 @@
+.wpcf7 {
+	width: fit-content;
+	display: block;
+	margin: 0 auto !important;
+	padding: 70px !important;
+}
+
+.contact {
+	input {
+		width: 400px;
+		height: 35px;
+		border: 0px;
+		background: #e1e1e1;
+	}
+
+	label {
+		font-size: 18px;
+	}
+
+	.wpcf7-submit {
+		background: #10448c;
+		color: #fff;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		height: 35px;
+		width: 85px;
+	}
+}

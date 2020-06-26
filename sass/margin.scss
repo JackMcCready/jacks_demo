@@ -1,0 +1,24 @@
+$marginTypes: "margin","margin-left","margin-right","margin-bottom","margin-top";
+
+@each $thisMarginType in $marginTypes {
+  @for $i from 1 through 10 {
+    .#{$thisMarginType}-#{$i*5} {
+      #{$thisMarginType}: $i*5 + px;
+    }
+  }
+}
+
+@each $thisMarginType in $marginTypes {
+  @for $i from 1 through 5 {
+    .#{$thisMarginType}-#{$i*100} {
+      #{$thisMarginType}: $i*100 + px;
+    }
+  }
+}
+
+.margin-right {
+  margin-right:10px;
+}
+.margin-left {
+  margin-left:10px;
+}

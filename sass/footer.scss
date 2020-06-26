@@ -1,0 +1,20 @@
+footer {
+  background: #262626;
+  padding:30px;
+  * {
+    list-style: none;
+    color: white;
+  }
+  ul,li {
+    padding:0;
+  }
+  .contact-info, .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+  .address {
+    p {
+      margin: 0;
+    }
+  }
+}

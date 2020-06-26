@@ -1,0 +1,31 @@
+#carouselTicker {
+  .carousel-item {
+    float:left;
+    h1,h2,h3,h4 {
+      font-weight:bold;
+    }
+    .collection-name-header {
+      position: absolute;
+      width:400px;
+      left:0;
+      font-size:20px;
+      bottom:0;
+    }
+    img {
+      width:auto;
+      max-height: 136px;
+    }
+    .btn-primary {
+      width:100%;
+      padding:12px;
+      text-align:center;
+    }
+    a:hover {
+      text-decoration:none;
+    }
+  }
+}
+.carouselTicker__list {
+  max-height:234px;
+  margin-bottom:25px;
+}

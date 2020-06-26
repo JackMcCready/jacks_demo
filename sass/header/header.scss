@@ -1,0 +1,45 @@
+#header {
+  padding:0px 0px;
+  background: #262626;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+.header-inner-wrap {
+  justify-content: space-between;
+  height: 100%;
+}
+
+  .mobile-nav {
+    display: none;
+    height: 30px;
+    top: 10px;
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    z-index: 200;
+    div {
+      background-color: #d45502;
+      border-radius: 3px;
+      float: left;
+      height: 5px;
+      margin-top: 4px;
+      width: 100%;
+    }
+  }
+
+  .mobile-navigation {
+    display: none;
+  }
+
+  .company-name {
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    .name-wrap {
+      height: min-content;
+    }
+  }
+}
